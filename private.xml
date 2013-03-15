@@ -2,12 +2,12 @@
 <root>
   <!-- Reference: http://pqrs.org/macosx/keyremap4macbook/xml.html.en -->
   <item>
-    <name>F19 to F19</name> <!-- Hat Tip: Brett Terpstra: http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/ -->
-    <appendix>(F19 to Hyper (ctrl+shift+cmd+opt) + F19 Only, send escape)</appendix>
+    <name>FN to Hyper</name> <!-- Hat Tip: Brett Terpstra: http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/ -->
+    <appendix>Hold FN: Hyper:(ctrl+shift+cmd+opt) + Tap FN: escape</appendix>
     <identifier>private.f192f19_escape</identifier>
     <autogen>
       --KeyOverlaidModifier--
-      KeyCode::F19,
+      KeyCode::FN,
       KeyCode::COMMAND_L,
       ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
       KeyCode::ESCAPE
@@ -16,46 +16,46 @@
 
   <!-- Diamond Cursor -->
   <item>
-    <name>Hyper I to Up</name>
+    <name>Caps Lock (Right Control/keycode 62) + I = Up</name>
     <appendix></appendix>
     <identifier>private.f192f19_up</identifier>
     <autogen>
       --KeyOverlaidModifier--
       KeyCode::I,
-      ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L | ModifierFlag::COMMAND_L,
+      ModifierFlag::CONTROL_R,
       KeyCode::CURSOR_UP
     </autogen>
   </item>
   <item>
-    <name>Hyper K to Down</name>
+    <name>Caps Lock (Right Control/keycode 62) + K = Down</name>
     <appendix></appendix>
     <identifier>private.f192f19_down</identifier>
     <autogen>
       --KeyOverlaidModifier--
       KeyCode::K,
-      ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L | ModifierFlag::COMMAND_L,
+      ModifierFlag::CONTROL_R,
       KeyCode::CURSOR_DOWN
     </autogen>
   </item>
   <item>
-    <name>Hyper J to Down</name>
+    <name>Caps Lock (Right Control/keycode 62) + J = Left</name>
     <appendix></appendix>
     <identifier>private.f192f19_left</identifier>
     <autogen>
       --KeyOverlaidModifier--
       KeyCode::J,
-      ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L | ModifierFlag::COMMAND_L,
+      ModifierFlag::CONTROL_R,
       KeyCode::CURSOR_LEFT
     </autogen>
   </item>
   <item>
-    <name>Hyper L to Down</name>
+    <name>Caps Lock (Right Control/keycode 62) + L = Right</name>
     <appendix></appendix>
     <identifier>private.f192f19_right</identifier>
     <autogen>
       --KeyOverlaidModifier--
       KeyCode::L,
-      ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L | ModifierFlag::COMMAND_L,
+      ModifierFlag::CONTROL_R,
       KeyCode::CURSOR_RIGHT
     </autogen>
   </item>
