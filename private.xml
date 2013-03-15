@@ -12,4 +12,48 @@
       KeyCode::ESCAPE
     </autogen>
   </item>
+  <item>
+    <name>Hyper I to Up</name>
+    <appendix></appendix>
+    <identifier>private.f192f19_up</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::I,
+      ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L | ModifierFlag::COMMAND_L,
+      KeyCode::CURSOR_UP
+    </autogen>
+  </item>
+  <item>
+    <name>Hyper K to Down</name>
+    <appendix></appendix>
+    <identifier>private.f192f19_down</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::K,
+      ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L | ModifierFlag::COMMAND_L,
+      KeyCode::CURSOR_DOWN
+    </autogen>
+  </item>
+  <item>
+    <name>Hyper J to Down</name>
+    <appendix></appendix>
+    <identifier>private.f192f19_left</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::J,
+      ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L | ModifierFlag::COMMAND_L,
+      KeyCode::CURSOR_LEFT
+    </autogen>
+  </item>
+  <item>
+    <name>Hyper L to Down</name>
+    <appendix></appendix>
+    <identifier>private.f192f19_right</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::L,
+      ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L | ModifierFlag::COMMAND_L,
+      KeyCode::CURSOR_RIGHT
+    </autogen>
+  </item>
 </root>
