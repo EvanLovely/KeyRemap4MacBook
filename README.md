@@ -1,10 +1,12 @@
+![Diamond Keys Style](http://www.evanlovely.com/tricky-name/wp-content/uploads/2013/03/1363396671.jpg)
+
 # Functionality #
 
-* Holding FN = Hyper Key, aka holding all four modifier keys (ctrl, shift, cmd, & option). Allows easy assigning of global keyboard shortcuts as this combo is rarely used. Hat tip to [Brett Terpstra for the Hyper concept](http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/). He used the Caps Lock though. 
-* Tapping FN = Escape. It’s still in the code from when Brett put it in there. I saw no harm in leaving. Shame it’s just as far away as escape.
-* Holding Caps Lock then hitting using some keys on your home row result in arrow keys being pressed. Super handy. You have two options:
-	* Diamond Keys Style - j/k/l/i makes left/down/right/up on your cursor. Same feeling as the real arrow keys. My preference.
-	* Vim Keys - h/j/l/k makes left/down/right/up on your cursor. 
+* Caps Lock + keys on your home = arrow keys — then hitting using some keys on your home row result in arrow keys being pressed. Super handy. We like keyboard shortcuts because we don't have to take our hands off the home row of the keyboard to head to the mouse; a similar loss of momentum happens when you leave for the arrow keys & come back. I find it to be a huge productivity booster. You have two arrow layout options:
+    1. Diamond Keys Style - j/k/l/i makes left/down/right/up on your cursor. Same feeling as the real arrow keys. My preference.
+    2. Vim Keys - h/j/l/k makes left/down/right/up on your cursor. For Vim users; they love it.
+* FN — Hyper Key, aka holding all four modifier keys (ctrl, shift, cmd, & option). Allows easy assigning of global keyboard shortcuts as this combo is rarely used. Hat tip to [Brett Terpstra for the Hyper concept](http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/). He used the Caps Lock though. I like FN better.
+* Tapping Shift = Escape; Holding Shift = Shift — Usually tab is 'ok', where escape is 'cancel'. This puts them much closer together. Only applies to the left shift. Brett uses it on his Caps Lock key, and since I moved it down to FN, I brought the universal "cancel" up closer.
 
 
 # How to Set Up #

@@ -2,14 +2,25 @@
 <root>
   <!-- Reference: http://pqrs.org/macosx/keyremap4macbook/xml.html.en -->
   <item>
-    <name>FN to Hyper</name> <!-- Hat Tip: Brett Terpstra: http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/ -->
-    <appendix>Hold FN: Hyper:(ctrl+shift+cmd+opt) + Tap FN: escape</appendix>
-    <identifier>private.f192f19_escape</identifier>
+    <name>FN to Hyper Modifier Key</name> <!-- Hat Tip: Brett Terpstra: http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/ -->
+    <appendix>Hyper:(ctrl+shift+cmd+opt). For System Wide Shortcuts. Hat Tip: Brett Terpstra.</appendix>
+    <identifier>private.hyper</identifier>
     <autogen>
       --KeyOverlaidModifier--
       KeyCode::FN,
       KeyCode::COMMAND_L,
-      ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+      ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L
+    </autogen>
+  </item>
+
+  <item>
+    <name>Tap Left Shift: Escape. Hold Left Shift: Left Shift</name>
+    <appendix>Usually tab is 'ok', where escape is 'cancel'. This puts them closer. Hat Tip: Brett Terpstra.</appendix><!-- Hat Tip: Brett Terpstra: http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/ -->
+    <identifier>private.escape</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::SHIFT_L,
+      KeyCode::SHIFT_L,
       KeyCode::ESCAPE
     </autogen>
   </item>
