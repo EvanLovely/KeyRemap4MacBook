@@ -14,10 +14,12 @@
 * Go to System Preferences > Keyboard > Modifier Keys. Set Caps Lock to No Action. 
 * Install [PCKeyboardHack](http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en). Set it to map the Caps Lock Key to key code 62 (right control key). Now holding Caps Lock is like holding the right control.
 * Install [KeyRemap4MacBook](http://pqrs.org/macosx/keyremap4macbook/index.html.en).
-* Clone this repo in ` ~/Library/Application Support\ ` so that way you should see this path to the KeyRemap4MacBook settings file: ` ~/Library/Application Support/KeyRemap4MacBook/private.xml ` 
-	* Optionally, you could go to the KeyRemap4MacBook settings under “Misc & Uninstall” and click “Open private.xml” then paste the contents of my private.xml in there. 
-* Reload the XML on the “Change Key” tab
-* Enable the top 5 rules that just appeared.
+* Bring in the custom settings I made one of two ways.
+    1. Clone [this repo](https://github.com/EvanLovely/KeyRemap4MacBook) in ` ~/Library/Application Support\ ` so that way you should see this path to the KeyRemap4MacBook settings file: ` ~/Library/Application Support/KeyRemap4MacBook/private.xml ` 
+    2. Go to the KeyRemap4MacBook settings under “Misc & Uninstall” and click “Open private.xml” then paste the contents of [my private.xml](https://raw.github.com/EvanLovely/KeyRemap4MacBook/master/private.xml) in there. 
+* Reload the XML on the “Change Key” tab.
+* Enable the top rules that just appeared; picking between Diamond Style or Vim Style.
+
 
 * * * 
 
