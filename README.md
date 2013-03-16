@@ -2,9 +2,10 @@
 
 * Holding FN = Hyper Key, aka holding all four modifier keys (ctrl, shift, cmd, & option). Allows easy assigning of global keyboard shortcuts as this combo is rarely used. Hat tip to [Brett Terpstra for the Hyper concept](http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/). He used the Caps Lock though. 
 * Tapping FN = Escape. It’s still in the code from when Brett put it in there. I saw no harm in leaving. Shame it’s just as far away as escape.
-* Holding Caps Lock then hitting j/k/l/i makes left/down/right/up on your cursor. That way you hold Caps Lock and get a cursor on your home row. Super handy. I set mine up in the diamond keys style (which is the same feeling as the real arrow keys). It wouldn’t be hard to move this over to a Vim style set up. 
+* Holding Caps Lock then hitting using some keys on your home row result in arrow keys being pressed. Super handy. You have two options:
+	* Diamond Keys Style - j/k/l/i makes left/down/right/up on your cursor. Same feeling as the real arrow keys. My preference.
+	* Vim Keys - h/j/l/k makes left/down/right/up on your cursor. 
 
-I at first tried using Brett’s Hyper style to use my arrows, but then I could do modifier keys like shift and right to select text. Deal killer for me (sure he has a way around it). So I’m using the absent right control key.
 
 # How to Set Up #
 
@@ -21,3 +22,7 @@ I at first tried using Brett’s Hyper style to use my arrows, but then I could 
 ## Optionally get your Caps Lock back ##
 
 Search the KeyRemap4MacBook rules for “simultaneous key presses caps lock” and enable the rule that says if you press both shifts at the same time, you gets Caps Lock. Makes sense to me!
+
+## Why I moved Hyper off Caps Lock to FN ##
+
+I at first tried using Brett’s Hyper style to use my arrows, but then I couldn't do modifier keys with arrow keys like shift and right to select text. Deal killer for me (sure he has a way around it). So I’m using the absent right control key.

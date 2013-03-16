@@ -17,8 +17,8 @@
   <!-- Diamond Cursor -->
   <item>
     <name>Caps Lock (Right Control/keycode 62) + I = Up</name>
-    <appendix></appendix>
-    <identifier>private.f192f19_up</identifier>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.diamond_up</identifier>
     <autogen>
       --KeyOverlaidModifier--
       KeyCode::I,
@@ -28,8 +28,8 @@
   </item>
   <item>
     <name>Caps Lock (Right Control/keycode 62) + K = Down</name>
-    <appendix></appendix>
-    <identifier>private.f192f19_down</identifier>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.diamond_down</identifier>
     <autogen>
       --KeyOverlaidModifier--
       KeyCode::K,
@@ -39,8 +39,8 @@
   </item>
   <item>
     <name>Caps Lock (Right Control/keycode 62) + J = Left</name>
-    <appendix></appendix>
-    <identifier>private.f192f19_left</identifier>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.diamond_left</identifier>
     <autogen>
       --KeyOverlaidModifier--
       KeyCode::J,
@@ -50,8 +50,54 @@
   </item>
   <item>
     <name>Caps Lock (Right Control/keycode 62) + L = Right</name>
-    <appendix></appendix>
-    <identifier>private.f192f19_right</identifier>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.diamond_right</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::L,
+      ModifierFlag::CONTROL_R,
+      KeyCode::CURSOR_RIGHT
+    </autogen>
+  </item>
+
+<!-- Vim Cursor (for the [OMBU Web](http://ombuweb.com) Team) :) -->
+  <item>
+    <name>Caps Lock (Right Control/keycode 62) + K = Up</name>
+    <appendix>Vim Style</appendix>
+    <identifier>private.vim_up</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::K,
+      ModifierFlag::CONTROL_R,
+      KeyCode::CURSOR_UP
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock (Right Control/keycode 62) + J = Down</name>
+    <appendix>Vim Style</appendix>
+    <identifier>private.vim_down</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::J,
+      ModifierFlag::CONTROL_R,
+      KeyCode::CURSOR_DOWN
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock (Right Control/keycode 62) + H = Left</name>
+    <appendix>Vim Style</appendix>
+    <identifier>private.vim_left</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::H,
+      ModifierFlag::CONTROL_R,
+      KeyCode::CURSOR_LEFT
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock (Right Control/keycode 62) + L = Right</name>
+    <appendix>Vim Style</appendix>
+    <identifier>private.vim_right</identifier>
     <autogen>
       --KeyOverlaidModifier--
       KeyCode::L,
