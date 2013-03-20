@@ -2,11 +2,11 @@
 
 # Functionality #
 
-* Caps Lock + keys on your home = arrow keys — then pressing some keys on your home row will result in arrow keys being pressed. Super handy. We like keyboard shortcuts because we don't have to take our hands off the home row of the keyboard to head to the mouse; a similar loss of momentum happens when you leave for the arrow keys & come back. I find it to be a huge productivity booster. You have two arrow layout options:
+* Holding Caps Lock + keys on your home = arrow keys — then pressing some keys on your home row will result in arrow keys being pressed. Super handy. We like keyboard shortcuts because we don't have to take our hands off the home row of the keyboard to head to the mouse; a similar loss of momentum happens when you leave for the arrow keys & come back. I find it to be a huge productivity booster. You have two arrow layout options:
     1. Diamond Keys Style - j/k/l/i moves your cursor left/down/right/up. Same feeling as the real arrow keys. My preference.
     2. Vim Keys - h/j/l/k moves your cursor left/down/right/up. For Vim users; they love it.
+* Tapping Caps Lock = Escape — Usually tab is 'ok', where escape is 'cancel'. This puts them much closer together. Only applies to the left shift.
 * FN — Hyper Key, aka holding all four modifier keys (ctrl, shift, cmd, & option). Allows easy assigning of global keyboard shortcuts as this combo is rarely used. Hat tip to [Brett Terpstra for the Hyper concept](http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/). He used the Caps Lock though. I like FN better.
-* Tapping Shift = Escape; Holding Shift = Shift — Usually tab is 'ok', where escape is 'cancel'. This puts them much closer together. Only applies to the left shift. Brett uses it on his Caps Lock key, and since I moved it down to FN, I brought the universal "cancel" up closer.
 
 
 # How to Set Up #
