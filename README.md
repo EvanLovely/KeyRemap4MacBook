@@ -1,5 +1,3 @@
-![Diamond Keys Style](http://www.evanlovely.com/tricky-name/wp-content/uploads/2013/03/1363396671.jpg)
-
 # Functionality #
 
 * Holding Caps Lock + keys on your home = arrow keys — then pressing some keys on your home row will result in arrow keys being pressed. Super handy. We like keyboard shortcuts because we don't have to take our hands off the home row of the keyboard to head to the mouse; a similar loss of momentum happens when you leave for the arrow keys & come back. I find it to be a huge productivity booster. You have two arrow layout options:
@@ -11,7 +9,7 @@
 
 # How to Set Up #
 
-* Go to System Preferences > Keyboard > Modifier Keys. Set Caps Lock to No Action. 
+* Go to System Preferences > Keyboard > Modifier Keys. Set Caps Lock to No Action. If you have a bluetooth keyboard, you will need to turn Caps Lock off for that as well.
 * Install [PCKeyboardHack](http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en). Set it to map the Caps Lock Key to key code 62 (right control key). Now holding Caps Lock is like holding the right control.
 * Install [KeyRemap4MacBook](http://pqrs.org/macosx/keyremap4macbook/index.html.en).
 * Bring in the custom settings I made one of two ways.
